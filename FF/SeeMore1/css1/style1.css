@@ -1,0 +1,30 @@
+.container{
+	background-color: black;
+}
+article{
+	font-size: 25px;
+	margin-bottom: 20px;
+	text-align: justify;
+	color: white;
+}
+article::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.img{
+	width: 20%;
+	border-radius: 50%;
+	shape-outside: circle(50%);
+}
+
+.left{
+	float: left;
+	margin-right: 50px;
+}
+
+.right{
+	float: right;
+	margin-left: 50px;
+}
